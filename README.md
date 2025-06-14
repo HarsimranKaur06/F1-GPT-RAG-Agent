@@ -12,8 +12,11 @@ F1GPT is an AI-powered chatbot that lets users ask anything about Formula 1—dr
 Required environment variables in `.env` file:
 
 OPENAI_API_KEY=your_openai_key
+
 ASTRA_DB_API_ENDPOINT=https://your-db-id.apps.astra.datastax.com
+
 ASTRA_DB_APPLICATION_TOKEN=AstraCS:your-token
+
 ASTRA_DB_KEYSPACE=default_keyspace
 
 
