@@ -2,9 +2,7 @@
 
 F1GPT is an AI-powered chatbot that lets users ask anything about Formula 1—driver stats, race history, rules—and get intelligent, context-aware responses. It demonstrates Retrieval-Augmented Generation (RAG) in action, combining OpenAI embeddings with a vector database and LangChain.js for orchestration.
 
-=========================
 📦 Prerequisites
-=========================
 
 1. Node.js (v18 or above)
 2. OpenAI API Key (https://platform.openai.com/account/api-keys)
@@ -18,9 +16,9 @@ ASTRA_DB_API_ENDPOINT=https://your-db-id.apps.astra.datastax.com
 ASTRA_DB_APPLICATION_TOKEN=AstraCS:your-token
 ASTRA_DB_KEYSPACE=default_keyspace
 
-=========================
+
 ⚙️ Steps to Run the Project
-=========================
+
 
 1. Clone the repository:
    git clone https://github.com/your-username/f1gpt.git
@@ -39,9 +37,9 @@ ASTRA_DB_KEYSPACE=default_keyspace
 
 6. Visit http://localhost:3000 to interact with the chatbot.
 
-=========================
+
 🧠 Key Technologies Used
-=========================
+
 
 - Next.js App Router
 - TypeScript
@@ -51,9 +49,9 @@ ASTRA_DB_KEYSPACE=default_keyspace
 - Vercel AI SDK (`ai/react`)
 
 
-=========================
+
 🧩 How It Works
-=========================
+
 
 1. ✅ A user types a question in the chatbot interface.
 2. 🔍 The app uses `text-embedding-3-small` from OpenAI to embed the question.
@@ -64,8 +62,8 @@ ASTRA_DB_KEYSPACE=default_keyspace
 
 This approach (RAG) ensures that answers are grounded in actual data, not just model memory—making the chatbot reliable for domain-specific knowledge like Formula 1.
 
-=========================
+
 📦 Sources
-=========================
+
 
 https://www.youtube.com/watch?v=d-VKYF4Zow0
